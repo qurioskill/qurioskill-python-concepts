@@ -1,0 +1,8 @@
+site_name: QurioSkill Python Docs
+nav:
+  - Home: index.md
+  - Basics:
+    - Variables: variables.md
+    - Data Types: data-types.md
+    - Functions: functions.md
+
