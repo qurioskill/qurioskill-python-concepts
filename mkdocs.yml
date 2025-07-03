@@ -1,5 +1,5 @@
 site_name: QurioSkill Python Docs
-site_url: https://qurioskill.github.io/qurioskill-python-concepts/
+site_url: https://qurioskill.github.io/
 theme:
   name: material
 nav:
