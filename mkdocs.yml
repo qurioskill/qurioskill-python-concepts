@@ -1,8 +1,10 @@
 site_name: QurioSkill Python Docs
 nav:
   - Home: index.md
-  - Basics:
+  - Concepts:
     - Variables: variables.md
     - Data Types: data-types.md
     - Functions: functions.md
+  - Important Lists:
+    - Common Functions: common-functions.md
 
