@@ -4,10 +4,13 @@ theme:
   name: material
 nav:
   - Home: index.md
+  - How To Tackle Coding Tasks: how-to-tackle-coding-tasks.md
   - Concepts:
     - Variables: variables.md
     - Data Types: data-types.md
     - Functions: functions.md
+    - Conditionals: conditionals.md
+    - Flow of Control: flow-of-control.md
   - Important Lists:
     - Common Functions: common-functions.md
 
