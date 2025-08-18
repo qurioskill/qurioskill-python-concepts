@@ -7,11 +7,18 @@ nav:
   - How To Tackle Coding Tasks: how-to-tackle-coding-tasks.md
   - Concepts:
     - Variables: variables.md
-    - Data Types: data-types.md
+    - Data Types:
+        - Arithmitic: arithmitic.md
+        - String: strings.md
+        - List: list.md
+        - Dictionary: dictionary.md
+        - More: more_datatypes.md
     - Functions: functions.md
     - Conditionals: conditionals.md
     - Flow of Control: flow-of-control.md
     - While Loops: while-loops.md
-  - Important Lists:
+    - Modules: modules.md
+  - Important:
     - Common Functions: common-functions.md
+    - Resources: resources.md
 
