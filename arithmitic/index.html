@@ -8,23 +8,25 @@
       
       
       
-        <link rel="canonical" href="https://qurioskill.github.io/">
+        <link rel="canonical" href="https://qurioskill.github.io/arithmitic/">
       
       
+        <link rel="prev" href="../variables/">
       
-        <link rel="next" href="how-to-tackle-coding-tasks/">
+      
+        <link rel="next" href="../strings/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
     
     
       
-        <title>QurioSkill Python Docs</title>
+        <title>Arithmitic - QurioSkill Python Docs</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.7e37652d.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.7e37652d.min.css">
       
       
 
@@ -43,7 +45,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -62,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-the-qurioskill-python-specialization-guide" class="md-skip">
+        <a href="#python-arithmetic-data-types" class="md-skip">
           Skip to content
         </a>
       
@@ -78,7 +80,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="QurioSkill Python Docs" class="md-header__button md-logo" aria-label="QurioSkill Python Docs" data-md-component="logo">
+    <a href=".." title="QurioSkill Python Docs" class="md-header__button md-logo" aria-label="QurioSkill Python Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -98,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Arithmitic
             
           </span>
         </div>
@@ -176,7 +178,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="QurioSkill Python Docs" class="md-nav__button md-logo" aria-label="QurioSkill Python Docs" data-md-component="logo">
+    <a href=".." title="QurioSkill Python Docs" class="md-nav__button md-logo" aria-label="QurioSkill Python Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -189,6 +191,153 @@
     
       
       
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../how-to-tackle-coding-tasks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How To Tackle Coding Tasks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Concepts
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Concepts
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../variables/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Variables
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Data Types
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Data Types
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
   
     
@@ -208,7 +357,7 @@
   
   
   <span class="md-ellipsis">
-    Home
+    Arithmitic
     
   </span>
   
@@ -216,12 +365,12 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="." class="md-nav__link md-nav__link--active">
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    Home
+    Arithmitic
     
   </span>
   
@@ -244,45 +393,90 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#whats-inside" class="md-nav__link">
+  <a href="#1-integers-int" class="md-nav__link">
     <span class="md-ellipsis">
-      📘 What's Inside?
+      1. Integers (int)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Integers (int)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#integer-operations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integer Operations
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-floating-point-numbers-float" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Floating Point Numbers (float)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Floating Point Numbers (float)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#float-operations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Float Operations
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-complex-numbers-complex" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Complex Numbers (complex)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Complex Numbers (complex)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#complex-number-operations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Complex Number Operations
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-type-conversion-between-number-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Type Conversion Between Number Types
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-to-use-this-guide" class="md-nav__link">
+  <a href="#summary" class="md-nav__link">
     <span class="md-ellipsis">
-      🚀 How to Use This Guide
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#who-is-this-for" class="md-nav__link">
-    <span class="md-ellipsis">
-      🎯 Who Is This For?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-will-you-learn" class="md-nav__link">
-    <span class="md-ellipsis">
-      🧠 What Will You Learn?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#about-qurioskill" class="md-nav__link">
-    <span class="md-ellipsis">
-      About QurioSkill
+      Summary
     </span>
   </a>
   
@@ -295,149 +489,6 @@
     </li>
   
 
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="how-to-tackle-coding-tasks/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    How To Tackle Coding Tasks
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
-        
-          
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    Concepts
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
-            <span class="md-nav__icon md-icon"></span>
-            Concepts
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="variables/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Variables
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
-        
-          
-          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    Data Types
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3_2">
-            <span class="md-nav__icon md-icon"></span>
-            Data Types
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="arithmitic/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Arithmitic
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
               
             
               
@@ -447,7 +498,7 @@
   
   
     <li class="md-nav__item">
-      <a href="strings/" class="md-nav__link">
+      <a href="../strings/" class="md-nav__link">
         
   
   
@@ -470,7 +521,7 @@
   
   
     <li class="md-nav__item">
-      <a href="list/" class="md-nav__link">
+      <a href="../list/" class="md-nav__link">
         
   
   
@@ -493,7 +544,7 @@
   
   
     <li class="md-nav__item">
-      <a href="dictionary/" class="md-nav__link">
+      <a href="../dictionary/" class="md-nav__link">
         
   
   
@@ -516,7 +567,7 @@
   
   
     <li class="md-nav__item">
-      <a href="more_datatypes/" class="md-nav__link">
+      <a href="../more_datatypes/" class="md-nav__link">
         
   
   
@@ -547,7 +598,7 @@
   
   
     <li class="md-nav__item">
-      <a href="functions/" class="md-nav__link">
+      <a href="../functions/" class="md-nav__link">
         
   
   
@@ -570,7 +621,7 @@
   
   
     <li class="md-nav__item">
-      <a href="conditionals/" class="md-nav__link">
+      <a href="../conditionals/" class="md-nav__link">
         
   
   
@@ -593,7 +644,7 @@
   
   
     <li class="md-nav__item">
-      <a href="flow-of-control/" class="md-nav__link">
+      <a href="../flow-of-control/" class="md-nav__link">
         
   
   
@@ -616,7 +667,7 @@
   
   
     <li class="md-nav__item">
-      <a href="while-loops/" class="md-nav__link">
+      <a href="../while-loops/" class="md-nav__link">
         
   
   
@@ -639,7 +690,7 @@
   
   
     <li class="md-nav__item">
-      <a href="modules/" class="md-nav__link">
+      <a href="../modules/" class="md-nav__link">
         
   
   
@@ -707,7 +758,7 @@
   
   
     <li class="md-nav__item">
-      <a href="common-functions/" class="md-nav__link">
+      <a href="../common-functions/" class="md-nav__link">
         
   
   
@@ -730,7 +781,7 @@
   
   
     <li class="md-nav__item">
-      <a href="resources/" class="md-nav__link">
+      <a href="../resources/" class="md-nav__link">
         
   
   
@@ -780,45 +831,90 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#whats-inside" class="md-nav__link">
+  <a href="#1-integers-int" class="md-nav__link">
     <span class="md-ellipsis">
-      📘 What's Inside?
+      1. Integers (int)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Integers (int)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#integer-operations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integer Operations
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-floating-point-numbers-float" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Floating Point Numbers (float)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Floating Point Numbers (float)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#float-operations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Float Operations
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-complex-numbers-complex" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Complex Numbers (complex)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Complex Numbers (complex)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#complex-number-operations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Complex Number Operations
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-type-conversion-between-number-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Type Conversion Between Number Types
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-to-use-this-guide" class="md-nav__link">
+  <a href="#summary" class="md-nav__link">
     <span class="md-ellipsis">
-      🚀 How to Use This Guide
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#who-is-this-for" class="md-nav__link">
-    <span class="md-ellipsis">
-      🎯 Who Is This For?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-will-you-learn" class="md-nav__link">
-    <span class="md-ellipsis">
-      🧠 What Will You Learn?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#about-qurioskill" class="md-nav__link">
-    <span class="md-ellipsis">
-      About QurioSkill
+      Summary
     </span>
   </a>
   
@@ -840,42 +936,92 @@
 
 
 
-<h1 id="welcome-to-the-qurioskill-python-specialization-guide">Welcome to the QurioSkill Python Specialization Guide</h1>
-<p>Welcome to your learning journey with <strong>QurioSkill's Python Specialization</strong>! This guide is designed to help you master the core concepts of Python in a structured, beginner-friendly way.</p>
-<p>Whether you're new to programming or brushing up on your skills, this guide will walk you through Python fundamentals using clear explanations and practical examples.</p>
+<h1 id="python-arithmetic-data-types">Python Arithmetic Data Types</h1>
+<p>Python provides several built-in data types that can be used to
+represent numbers and perform arithmetic operations.</p>
 <hr />
-<h2 id="whats-inside">📘 What's Inside?</h2>
-<p>This guide is organized into focused sections, each available as a separate page:</p>
+<h2 id="1-integers-int">1. Integers (<code>int</code>)</h2>
+<p>An <strong>integer</strong> is a whole number without decimals. It can be positive,
+negative, or zero.</p>
+<p>Examples:</p>
+<pre><code class="language-python">x = 10
+y = -5
+z = 0
+
+print(type(x))  # &lt;class 'int'&gt;
+</code></pre>
+<p>Python can handle very large integers without any special syntax.</p>
+<h3 id="integer-operations">Integer Operations</h3>
+<pre><code class="language-python">a = 10
+b = 3
+
+print(a + b)   # 13
+print(a - b)   # 7
+print(a * b)   # 30
+print(a // b)  # 3 (floor division)
+print(a % b)   # 1 (modulus)
+print(a ** b)  # 1000 (exponentiation)
+</code></pre>
+<hr />
+<h2 id="2-floating-point-numbers-float">2. Floating Point Numbers (<code>float</code>)</h2>
+<p>A <strong>float</strong> represents real numbers with a decimal point.</p>
+<p>Examples:</p>
+<pre><code class="language-python">pi = 3.14159
+temperature = -7.5
+value = 2.0
+
+print(type(pi))  # &lt;class 'float'&gt;
+</code></pre>
+<h3 id="float-operations">Float Operations</h3>
+<pre><code class="language-python">x = 5.5
+y = 2.0
+
+print(x + y)   # 7.5
+print(x - y)   # 3.5
+print(x * y)   # 11.0
+print(x / y)   # 2.75
+</code></pre>
+<p>Floats are useful when precision with decimals is required.</p>
+<hr />
+<h2 id="3-complex-numbers-complex">3. Complex Numbers (<code>complex</code>)</h2>
+<p>A <strong>complex number</strong> has a real part and an imaginary part, written as
+<code>a + bj</code>.</p>
+<p>Examples:</p>
+<pre><code class="language-python">c1 = 2 + 3j
+c2 = 4 - 5j
+
+print(type(c1))  # &lt;class 'complex'&gt;
+</code></pre>
+<h3 id="complex-number-operations">Complex Number Operations</h3>
+<pre><code class="language-python">c1 = 2 + 3j
+c2 = 1 - 1j
+
+print(c1 + c2)  # (3+2j)
+print(c1 - c2)  # (1+4j)
+print(c1 * c2)  # (5+1j)
+print(c1 / c2)  # (-0.5+2.5j)
+</code></pre>
+<p>Python has built-in support for complex arithmetic.</p>
+<hr />
+<h2 id="4-type-conversion-between-number-types">4. Type Conversion Between Number Types</h2>
+<p>You can convert between integers, floats, and complex numbers using
+built-in functions:</p>
+<pre><code class="language-python">print(int(3.9))       # 3 (decimal truncated)
+print(float(7))       # 7.0
+print(complex(5))     # (5+0j)
+print(complex(2, 3))  # (2+3j)
+</code></pre>
+<hr />
+<h2 id="summary">Summary</h2>
 <ul>
-<li><strong>Variables</strong>: Understand how to store and manage data.</li>
-<li><strong>Data Types</strong>: Learn about integers, floats, strings, and booleans—plus the operators used with each.</li>
-<li><strong>Functions</strong>: Discover how to create reusable blocks of code for cleaner, more efficient programming.</li>
+<li><strong>Integers (<code>int</code>)</strong>: Whole numbers, positive or negative.</li>
+<li><strong>Floats (<code>float</code>)</strong>: Numbers with decimals, for precision.</li>
+<li><strong>Complex (<code>complex</code>)</strong>: Numbers with real and imaginary parts.</li>
+<li>Python allows arithmetic operations across all numeric types and
+    provides automatic type promotion when needed.</li>
 </ul>
-<hr />
-<h2 id="how-to-use-this-guide">🚀 How to Use This Guide</h2>
-<ul>
-<li><strong>Start from the top</strong>: Each topic builds on the previous one, so it’s best to go in order.</li>
-<li><strong>Try the examples</strong>: Copy and run the code in your own Python environment (like <a href="https://replit.com">replit.com</a>, VS Code, or Jupyter Notebooks).</li>
-<li><strong>Take notes</strong>: Write down what each example does and test your understanding by modifying the code.</li>
-<li><strong>Practice often</strong>: Use the concepts in your own mini-projects or practice exercises.</li>
-</ul>
-<hr />
-<h2 id="who-is-this-for">🎯 Who Is This For?</h2>
-<p>This guide is perfect for:
-- Beginners learning to code with Python
-- Students taking QurioSkill’s Python workshops
-- Anyone looking for a quick refresher on Python basics</p>
-<hr />
-<h2 id="what-will-you-learn">🧠 What Will You Learn?</h2>
-<p>By the end of this guide, you’ll be able to:
-- Declare and manipulate variables
-- Understand and apply Python data types
-- Write and use your own functions
-- Build a strong foundation for advanced Python topics</p>
-<hr />
-<h2 id="about-qurioskill">About QurioSkill</h2>
-<p>At <strong>QurioSkill</strong>, our mission is to deliver exceptional skill-learning experiences that seamlessly integrate into even the busiest of lives. Our Python Specialization is part of that commitment—designed to be clear, concise, and practical for learners across the globe.</p>
-<p>Ready to start? Begin with the <a href="variables/">Variables</a> section!</p>
+<p>These arithmetic data types form the foundation of numerical programming
+in Python!</p>
 
 
 
@@ -924,10 +1070,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.50899def.min.js"></script>
+      <script src="../assets/javascripts/bundle.50899def.min.js"></script>
       
     
   </body>

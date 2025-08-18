@@ -8,23 +8,25 @@
       
       
       
-        <link rel="canonical" href="https://qurioskill.github.io/">
+        <link rel="canonical" href="https://qurioskill.github.io/modules/">
       
       
+        <link rel="prev" href="../while-loops/">
       
-        <link rel="next" href="how-to-tackle-coding-tasks/">
+      
+        <link rel="next" href="../common-functions/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
     
     
       
-        <title>QurioSkill Python Docs</title>
+        <title>Modules - QurioSkill Python Docs</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.7e37652d.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.7e37652d.min.css">
       
       
 
@@ -43,7 +45,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -62,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-the-qurioskill-python-specialization-guide" class="md-skip">
+        <a href="#python-modules" class="md-skip">
           Skip to content
         </a>
       
@@ -78,7 +80,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="QurioSkill Python Docs" class="md-header__button md-logo" aria-label="QurioSkill Python Docs" data-md-component="logo">
+    <a href=".." title="QurioSkill Python Docs" class="md-header__button md-logo" aria-label="QurioSkill Python Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -98,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Modules
             
           </span>
         </div>
@@ -176,7 +178,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="QurioSkill Python Docs" class="md-nav__button md-logo" aria-label="QurioSkill Python Docs" data-md-component="logo">
+    <a href=".." title="QurioSkill Python Docs" class="md-nav__button md-logo" aria-label="QurioSkill Python Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -191,32 +193,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Home
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
         
   
   
@@ -227,71 +207,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#whats-inside" class="md-nav__link">
-    <span class="md-ellipsis">
-      📘 What's Inside?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-to-use-this-guide" class="md-nav__link">
-    <span class="md-ellipsis">
-      🚀 How to Use This Guide
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#who-is-this-for" class="md-nav__link">
-    <span class="md-ellipsis">
-      🎯 Who Is This For?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-will-you-learn" class="md-nav__link">
-    <span class="md-ellipsis">
-      🧠 What Will You Learn?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#about-qurioskill" class="md-nav__link">
-    <span class="md-ellipsis">
-      About QurioSkill
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -303,7 +218,7 @@
   
   
     <li class="md-nav__item">
-      <a href="how-to-tackle-coding-tasks/" class="md-nav__link">
+      <a href="../how-to-tackle-coding-tasks/" class="md-nav__link">
         
   
   
@@ -322,18 +237,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -349,7 +266,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Concepts
@@ -363,7 +280,7 @@
   
   
     <li class="md-nav__item">
-      <a href="variables/" class="md-nav__link">
+      <a href="../variables/" class="md-nav__link">
         
   
   
@@ -424,7 +341,7 @@
   
   
     <li class="md-nav__item">
-      <a href="arithmitic/" class="md-nav__link">
+      <a href="../arithmitic/" class="md-nav__link">
         
   
   
@@ -447,7 +364,7 @@
   
   
     <li class="md-nav__item">
-      <a href="strings/" class="md-nav__link">
+      <a href="../strings/" class="md-nav__link">
         
   
   
@@ -470,7 +387,7 @@
   
   
     <li class="md-nav__item">
-      <a href="list/" class="md-nav__link">
+      <a href="../list/" class="md-nav__link">
         
   
   
@@ -493,7 +410,7 @@
   
   
     <li class="md-nav__item">
-      <a href="dictionary/" class="md-nav__link">
+      <a href="../dictionary/" class="md-nav__link">
         
   
   
@@ -516,7 +433,7 @@
   
   
     <li class="md-nav__item">
-      <a href="more_datatypes/" class="md-nav__link">
+      <a href="../more_datatypes/" class="md-nav__link">
         
   
   
@@ -547,7 +464,7 @@
   
   
     <li class="md-nav__item">
-      <a href="functions/" class="md-nav__link">
+      <a href="../functions/" class="md-nav__link">
         
   
   
@@ -570,7 +487,7 @@
   
   
     <li class="md-nav__item">
-      <a href="conditionals/" class="md-nav__link">
+      <a href="../conditionals/" class="md-nav__link">
         
   
   
@@ -593,7 +510,7 @@
   
   
     <li class="md-nav__item">
-      <a href="flow-of-control/" class="md-nav__link">
+      <a href="../flow-of-control/" class="md-nav__link">
         
   
   
@@ -616,7 +533,7 @@
   
   
     <li class="md-nav__item">
-      <a href="while-loops/" class="md-nav__link">
+      <a href="../while-loops/" class="md-nav__link">
         
   
   
@@ -636,10 +553,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="modules/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Modules
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -650,6 +589,89 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-a-module" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is a Module?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#importing-a-module" class="md-nav__link">
+    <span class="md-ellipsis">
+      Importing a Module
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-1-the-os-module" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example 1: The os Module
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-2-the-io-module" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example 2: The io Module
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-use-modules" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Use Modules?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#more-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      More Resources
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -707,7 +729,7 @@
   
   
     <li class="md-nav__item">
-      <a href="common-functions/" class="md-nav__link">
+      <a href="../common-functions/" class="md-nav__link">
         
   
   
@@ -730,7 +752,7 @@
   
   
     <li class="md-nav__item">
-      <a href="resources/" class="md-nav__link">
+      <a href="../resources/" class="md-nav__link">
         
   
   
@@ -780,45 +802,63 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#whats-inside" class="md-nav__link">
+  <a href="#what-is-a-module" class="md-nav__link">
     <span class="md-ellipsis">
-      📘 What's Inside?
+      What is a Module?
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-to-use-this-guide" class="md-nav__link">
+  <a href="#importing-a-module" class="md-nav__link">
     <span class="md-ellipsis">
-      🚀 How to Use This Guide
+      Importing a Module
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#who-is-this-for" class="md-nav__link">
+  <a href="#example-1-the-os-module" class="md-nav__link">
     <span class="md-ellipsis">
-      🎯 Who Is This For?
+      Example 1: The os Module
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#what-will-you-learn" class="md-nav__link">
+  <a href="#example-2-the-io-module" class="md-nav__link">
     <span class="md-ellipsis">
-      🧠 What Will You Learn?
+      Example 2: The io Module
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#about-qurioskill" class="md-nav__link">
+  <a href="#why-use-modules" class="md-nav__link">
     <span class="md-ellipsis">
-      About QurioSkill
+      Why Use Modules?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#more-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      More Resources
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
     </span>
   </a>
   
@@ -840,42 +880,87 @@
 
 
 
-<h1 id="welcome-to-the-qurioskill-python-specialization-guide">Welcome to the QurioSkill Python Specialization Guide</h1>
-<p>Welcome to your learning journey with <strong>QurioSkill's Python Specialization</strong>! This guide is designed to help you master the core concepts of Python in a structured, beginner-friendly way.</p>
-<p>Whether you're new to programming or brushing up on your skills, this guide will walk you through Python fundamentals using clear explanations and practical examples.</p>
+<h1 id="python-modules">Python Modules</h1>
+<h2 id="what-is-a-module">What is a Module?</h2>
+<p>A <strong>module</strong> in Python is a file that contains Python code (functions,
+classes, and variables) that you can reuse in other programs.
+Modules help you organize your code into logical sections and avoid
+repeating yourself.</p>
+<p>There are two types of modules: 1. <strong>Built-in modules</strong> -- come with
+Python (e.g., <code>os</code>, <code>io</code>, <code>math</code>). 2. <strong>User-defined modules</strong> --
+created by you in separate <code>.py</code> files.</p>
+<p>You use the <code>import</code> statement to load a module into your program.</p>
 <hr />
-<h2 id="whats-inside">📘 What's Inside?</h2>
-<p>This guide is organized into focused sections, each available as a separate page:</p>
+<h2 id="importing-a-module">Importing a Module</h2>
+<pre><code class="language-python">import math
+
+print(math.sqrt(16))  # 4.0
+print(math.pi)        # 3.141592653589793
+</code></pre>
+<p>You can also import specific functions:</p>
+<pre><code class="language-python">from math import sqrt, pi
+
+print(sqrt(25))  # 5.0
+print(pi)        # 3.141592653589793
+</code></pre>
+<hr />
+<h2 id="example-1-the-os-module">Example 1: The <code>os</code> Module</h2>
+<p>The <strong><code>os</code> module</strong> provides functions to interact with the operating
+system (files, directories, environment variables).</p>
+<pre><code class="language-python">import os
+
+# Get current working directory
+print(os.getcwd())
+
+# List files in current directory
+print(os.listdir())
+
+# Create a new directory
+os.mkdir(&quot;test_folder&quot;)
+
+# Remove a directory
+os.rmdir(&quot;test_folder&quot;)
+</code></pre>
+<hr />
+<h2 id="example-2-the-io-module">Example 2: The <code>io</code> Module</h2>
+<p>The <strong><code>io</code> module</strong> provides tools for handling input and output
+(working with files in text and binary modes).</p>
+<pre><code class="language-python">import io
+
+# Create an in-memory text stream
+text_stream = io.StringIO(&quot;Hello, Python!&quot;)
+print(text_stream.read())  # &quot;Hello, Python!&quot;
+
+# Working with file-like binary data
+binary_stream = io.BytesIO(b&quot;Python Bytes&quot;)
+print(binary_stream.read())  # b'Python Bytes'
+</code></pre>
+<hr />
+<h2 id="why-use-modules">Why Use Modules?</h2>
 <ul>
-<li><strong>Variables</strong>: Understand how to store and manage data.</li>
-<li><strong>Data Types</strong>: Learn about integers, floats, strings, and booleans—plus the operators used with each.</li>
-<li><strong>Functions</strong>: Discover how to create reusable blocks of code for cleaner, more efficient programming.</li>
+<li><strong>Organization</strong> → Keeps code clean and modular.</li>
+<li><strong>Reusability</strong> → Functions can be used in multiple programs.</li>
+<li><strong>Built-in Power</strong> → Python modules provide ready-to-use
+    functionality.</li>
 </ul>
 <hr />
-<h2 id="how-to-use-this-guide">🚀 How to Use This Guide</h2>
+<h2 id="more-resources">More Resources</h2>
 <ul>
-<li><strong>Start from the top</strong>: Each topic builds on the previous one, so it’s best to go in order.</li>
-<li><strong>Try the examples</strong>: Copy and run the code in your own Python environment (like <a href="https://replit.com">replit.com</a>, VS Code, or Jupyter Notebooks).</li>
-<li><strong>Take notes</strong>: Write down what each example does and test your understanding by modifying the code.</li>
-<li><strong>Practice often</strong>: Use the concepts in your own mini-projects or practice exercises.</li>
+<li><a href="https://docs.python.org/3/tutorial/modules.html">Python Modules
+    Documentation</a></li>
+<li><a href="https://docs.python.org/3/library/os.html">Python OS Module</a></li>
+<li><a href="https://docs.python.org/3/library/io.html">Python IO Module</a></li>
 </ul>
 <hr />
-<h2 id="who-is-this-for">🎯 Who Is This For?</h2>
-<p>This guide is perfect for:
-- Beginners learning to code with Python
-- Students taking QurioSkill’s Python workshops
-- Anyone looking for a quick refresher on Python basics</p>
-<hr />
-<h2 id="what-will-you-learn">🧠 What Will You Learn?</h2>
-<p>By the end of this guide, you’ll be able to:
-- Declare and manipulate variables
-- Understand and apply Python data types
-- Write and use your own functions
-- Build a strong foundation for advanced Python topics</p>
-<hr />
-<h2 id="about-qurioskill">About QurioSkill</h2>
-<p>At <strong>QurioSkill</strong>, our mission is to deliver exceptional skill-learning experiences that seamlessly integrate into even the busiest of lives. Our Python Specialization is part of that commitment—designed to be clear, concise, and practical for learners across the globe.</p>
-<p>Ready to start? Begin with the <a href="variables/">Variables</a> section!</p>
+<h2 id="summary">Summary</h2>
+<ul>
+<li>Modules are reusable pieces of Python code.</li>
+<li>Use <code>import</code> to load built-in or custom modules.</li>
+<li><code>os</code> is used for system operations (directories, files).\</li>
+<li><code>io</code> is used for handling streams and files.</li>
+</ul>
+<p>Modules are one of the most powerful ways to extend Python's
+functionality!</p>
 
 
 
@@ -924,10 +1009,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.50899def.min.js"></script>
+      <script src="../assets/javascripts/bundle.50899def.min.js"></script>
       
     
   </body>

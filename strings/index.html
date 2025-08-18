@@ -8,23 +8,25 @@
       
       
       
-        <link rel="canonical" href="https://qurioskill.github.io/">
+        <link rel="canonical" href="https://qurioskill.github.io/strings/">
       
       
+        <link rel="prev" href="../arithmitic/">
       
-        <link rel="next" href="how-to-tackle-coding-tasks/">
+      
+        <link rel="next" href="../list/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
     
     
       
-        <title>QurioSkill Python Docs</title>
+        <title>String - QurioSkill Python Docs</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.7e37652d.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.7e37652d.min.css">
       
       
 
@@ -43,7 +45,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -62,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-the-qurioskill-python-specialization-guide" class="md-skip">
+        <a href="#python-string-data-type" class="md-skip">
           Skip to content
         </a>
       
@@ -78,7 +80,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="QurioSkill Python Docs" class="md-header__button md-logo" aria-label="QurioSkill Python Docs" data-md-component="logo">
+    <a href=".." title="QurioSkill Python Docs" class="md-header__button md-logo" aria-label="QurioSkill Python Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -98,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              String
             
           </span>
         </div>
@@ -176,7 +178,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="QurioSkill Python Docs" class="md-nav__button md-logo" aria-label="QurioSkill Python Docs" data-md-component="logo">
+    <a href=".." title="QurioSkill Python Docs" class="md-nav__button md-logo" aria-label="QurioSkill Python Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -189,6 +191,176 @@
     
       
       
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../how-to-tackle-coding-tasks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How To Tackle Coding Tasks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Concepts
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Concepts
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../variables/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Variables
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Data Types
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Data Types
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../arithmitic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Arithmitic
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
   
   
     
@@ -208,7 +380,7 @@
   
   
   <span class="md-ellipsis">
-    Home
+    String
     
   </span>
   
@@ -216,12 +388,12 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="." class="md-nav__link md-nav__link--active">
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    Home
+    String
     
   </span>
   
@@ -244,45 +416,63 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#whats-inside" class="md-nav__link">
+  <a href="#what-is-a-string" class="md-nav__link">
     <span class="md-ellipsis">
-      📘 What's Inside?
+      What is a String?
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-to-use-this-guide" class="md-nav__link">
+  <a href="#creating-strings" class="md-nav__link">
     <span class="md-ellipsis">
-      🚀 How to Use This Guide
+      Creating Strings
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#who-is-this-for" class="md-nav__link">
+  <a href="#string-operations" class="md-nav__link">
     <span class="md-ellipsis">
-      🎯 Who Is This For?
+      String Operations
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#what-will-you-learn" class="md-nav__link">
+  <a href="#indexing-and-slicing" class="md-nav__link">
     <span class="md-ellipsis">
-      🧠 What Will You Learn?
+      Indexing and Slicing
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#about-qurioskill" class="md-nav__link">
+  <a href="#common-string-methods" class="md-nav__link">
     <span class="md-ellipsis">
-      About QurioSkill
+      Common String Methods
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#type-conversion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Type Conversion
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
     </span>
   </a>
   
@@ -295,149 +485,6 @@
     </li>
   
 
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="how-to-tackle-coding-tasks/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    How To Tackle Coding Tasks
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
-        
-          
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    Concepts
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
-            <span class="md-nav__icon md-icon"></span>
-            Concepts
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="variables/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Variables
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
-        
-          
-          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    Data Types
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3_2">
-            <span class="md-nav__icon md-icon"></span>
-            Data Types
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="arithmitic/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Arithmitic
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
               
             
               
@@ -447,30 +494,7 @@
   
   
     <li class="md-nav__item">
-      <a href="strings/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    String
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="list/" class="md-nav__link">
+      <a href="../list/" class="md-nav__link">
         
   
   
@@ -493,7 +517,7 @@
   
   
     <li class="md-nav__item">
-      <a href="dictionary/" class="md-nav__link">
+      <a href="../dictionary/" class="md-nav__link">
         
   
   
@@ -516,7 +540,7 @@
   
   
     <li class="md-nav__item">
-      <a href="more_datatypes/" class="md-nav__link">
+      <a href="../more_datatypes/" class="md-nav__link">
         
   
   
@@ -547,7 +571,7 @@
   
   
     <li class="md-nav__item">
-      <a href="functions/" class="md-nav__link">
+      <a href="../functions/" class="md-nav__link">
         
   
   
@@ -570,7 +594,7 @@
   
   
     <li class="md-nav__item">
-      <a href="conditionals/" class="md-nav__link">
+      <a href="../conditionals/" class="md-nav__link">
         
   
   
@@ -593,7 +617,7 @@
   
   
     <li class="md-nav__item">
-      <a href="flow-of-control/" class="md-nav__link">
+      <a href="../flow-of-control/" class="md-nav__link">
         
   
   
@@ -616,7 +640,7 @@
   
   
     <li class="md-nav__item">
-      <a href="while-loops/" class="md-nav__link">
+      <a href="../while-loops/" class="md-nav__link">
         
   
   
@@ -639,7 +663,7 @@
   
   
     <li class="md-nav__item">
-      <a href="modules/" class="md-nav__link">
+      <a href="../modules/" class="md-nav__link">
         
   
   
@@ -707,7 +731,7 @@
   
   
     <li class="md-nav__item">
-      <a href="common-functions/" class="md-nav__link">
+      <a href="../common-functions/" class="md-nav__link">
         
   
   
@@ -730,7 +754,7 @@
   
   
     <li class="md-nav__item">
-      <a href="resources/" class="md-nav__link">
+      <a href="../resources/" class="md-nav__link">
         
   
   
@@ -780,45 +804,63 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#whats-inside" class="md-nav__link">
+  <a href="#what-is-a-string" class="md-nav__link">
     <span class="md-ellipsis">
-      📘 What's Inside?
+      What is a String?
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-to-use-this-guide" class="md-nav__link">
+  <a href="#creating-strings" class="md-nav__link">
     <span class="md-ellipsis">
-      🚀 How to Use This Guide
+      Creating Strings
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#who-is-this-for" class="md-nav__link">
+  <a href="#string-operations" class="md-nav__link">
     <span class="md-ellipsis">
-      🎯 Who Is This For?
+      String Operations
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#what-will-you-learn" class="md-nav__link">
+  <a href="#indexing-and-slicing" class="md-nav__link">
     <span class="md-ellipsis">
-      🧠 What Will You Learn?
+      Indexing and Slicing
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#about-qurioskill" class="md-nav__link">
+  <a href="#common-string-methods" class="md-nav__link">
     <span class="md-ellipsis">
-      About QurioSkill
+      Common String Methods
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#type-conversion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Type Conversion
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
     </span>
   </a>
   
@@ -840,42 +882,66 @@
 
 
 
-<h1 id="welcome-to-the-qurioskill-python-specialization-guide">Welcome to the QurioSkill Python Specialization Guide</h1>
-<p>Welcome to your learning journey with <strong>QurioSkill's Python Specialization</strong>! This guide is designed to help you master the core concepts of Python in a structured, beginner-friendly way.</p>
-<p>Whether you're new to programming or brushing up on your skills, this guide will walk you through Python fundamentals using clear explanations and practical examples.</p>
-<hr />
-<h2 id="whats-inside">📘 What's Inside?</h2>
-<p>This guide is organized into focused sections, each available as a separate page:</p>
+<h1 id="python-string-data-type">Python String Data Type</h1>
+<h2 id="what-is-a-string">What is a String?</h2>
+<p>In Python, a <strong>string</strong> is a sequence of characters enclosed in single
+quotes (<code>'</code>), double quotes (<code>"</code>), or triple quotes (<code>'''</code> or <code>"""</code>).
+Strings are used to represent text.</p>
+<p>Examples:</p>
+<pre><code class="language-python">name = &quot;Alice&quot;
+greeting = 'Hello'
+paragraph = '''This is
+a multi-line
+string.'''
+</code></pre>
+<h2 id="creating-strings">Creating Strings</h2>
+<p>You can create strings using quotes:</p>
+<pre><code class="language-python">str1 = &quot;Python&quot;
+str2 = 'Programming'
+str3 = &quot;&quot;&quot;Multi-line
+string example.&quot;&quot;&quot;
+</code></pre>
+<h2 id="string-operations">String Operations</h2>
+<p>Python provides many operations with strings:</p>
+<pre><code class="language-python">a = &quot;Hello&quot;
+b = &quot;World&quot;
+
+print(a + &quot; &quot; + b)  # Concatenation → &quot;Hello World&quot;
+print(a * 3)        # Repetition → &quot;HelloHelloHello&quot;
+print(len(a))       # Length → 5
+</code></pre>
+<h2 id="indexing-and-slicing">Indexing and Slicing</h2>
+<p>Strings are sequences, so you can access parts of them:</p>
+<pre><code class="language-python">text = &quot;Python&quot;
+
+print(text[0])   # First character → &quot;P&quot;
+print(text[-1])  # Last character → &quot;n&quot;
+print(text[0:4]) # Slice → &quot;Pyth&quot;
+</code></pre>
+<h2 id="common-string-methods">Common String Methods</h2>
+<p>Python strings have built-in methods:</p>
+<pre><code class="language-python">msg = &quot;hello world&quot;
+
+print(msg.upper())    # &quot;HELLO WORLD&quot;
+print(msg.lower())    # &quot;hello world&quot;
+print(msg.title())    # &quot;Hello World&quot;
+print(msg.replace(&quot;world&quot;, &quot;Python&quot;))  # &quot;hello Python&quot;
+print(msg.strip())    # Removes whitespace from start and end
+</code></pre>
+<h2 id="type-conversion">Type Conversion</h2>
+<p>Convert other data types to strings with <code>str()</code>:</p>
+<pre><code class="language-python">num = 42
+print(str(num))  # &quot;42&quot;
+</code></pre>
+<h2 id="summary">Summary</h2>
 <ul>
-<li><strong>Variables</strong>: Understand how to store and manage data.</li>
-<li><strong>Data Types</strong>: Learn about integers, floats, strings, and booleans—plus the operators used with each.</li>
-<li><strong>Functions</strong>: Discover how to create reusable blocks of code for cleaner, more efficient programming.</li>
+<li>Strings represent text in Python.</li>
+<li>Defined using quotes: <code>' '</code>, <code>" "</code>, <code>''' '''</code>, or <code>""" """</code>.</li>
+<li>Support operations like concatenation, repetition, slicing, and many
+    methods.</li>
+<li>Use <code>str()</code> to convert other data types to strings.</li>
 </ul>
-<hr />
-<h2 id="how-to-use-this-guide">🚀 How to Use This Guide</h2>
-<ul>
-<li><strong>Start from the top</strong>: Each topic builds on the previous one, so it’s best to go in order.</li>
-<li><strong>Try the examples</strong>: Copy and run the code in your own Python environment (like <a href="https://replit.com">replit.com</a>, VS Code, or Jupyter Notebooks).</li>
-<li><strong>Take notes</strong>: Write down what each example does and test your understanding by modifying the code.</li>
-<li><strong>Practice often</strong>: Use the concepts in your own mini-projects or practice exercises.</li>
-</ul>
-<hr />
-<h2 id="who-is-this-for">🎯 Who Is This For?</h2>
-<p>This guide is perfect for:
-- Beginners learning to code with Python
-- Students taking QurioSkill’s Python workshops
-- Anyone looking for a quick refresher on Python basics</p>
-<hr />
-<h2 id="what-will-you-learn">🧠 What Will You Learn?</h2>
-<p>By the end of this guide, you’ll be able to:
-- Declare and manipulate variables
-- Understand and apply Python data types
-- Write and use your own functions
-- Build a strong foundation for advanced Python topics</p>
-<hr />
-<h2 id="about-qurioskill">About QurioSkill</h2>
-<p>At <strong>QurioSkill</strong>, our mission is to deliver exceptional skill-learning experiences that seamlessly integrate into even the busiest of lives. Our Python Specialization is part of that commitment—designed to be clear, concise, and practical for learners across the globe.</p>
-<p>Ready to start? Begin with the <a href="variables/">Variables</a> section!</p>
+<p>Strings are extremely powerful for working with text in Python!</p>
 
 
 
@@ -924,10 +990,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.50899def.min.js"></script>
+      <script src="../assets/javascripts/bundle.50899def.min.js"></script>
       
     
   </body>
