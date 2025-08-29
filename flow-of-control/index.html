@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#python-flow-of-control-a-highlevel-overview" class="md-skip">
+        <a href="#python-flow-of-control" class="md-skip">
           Skip to content
         </a>
       
@@ -237,6 +237,28 @@
       
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../cheat_sheet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cheat Sheet
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -250,10 +272,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
             
   
   
@@ -266,8 +288,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_3">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Concepts
           </label>
@@ -311,10 +333,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
         
           
-          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
             
   
   
@@ -327,8 +349,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3_2">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
             <span class="md-nav__icon md-icon"></span>
             Data Types
           </label>
@@ -750,10 +772,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
             
   
   
@@ -766,8 +788,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             Important
           </label>
@@ -982,10 +1004,10 @@
 
 
 
-<h1 id="python-flow-of-control-a-highlevel-overview">Python Flow of Control: A High‑Level Overview</h1>
+<h1 id="python-flow-of-control"><strong>Python Flow of Control</strong></h1>
 <p>When you run a Python script, the interpreter follows a predictable flow to execute the code. This document explains <strong>how Python reads a <code>.py</code> file</strong>, what happens with <strong>variable assignments</strong>, <strong>function definitions and calls</strong>, and other control structures—all in a beginner‑friendly way.</p>
 <hr />
-<h2 id="1-starting-the-interpreter">1. Starting the Interpreter</h2>
+<h2 id="1-starting-the-interpreter"><strong>1. Starting the Interpreter</strong></h2>
 <ol>
 <li><strong>Read the file</strong>: Python reads your script from top to bottom.</li>
 <li><strong>Compile to bytecode</strong>: Behind the scenes, each line is translated into an intermediate form called <em>bytecode</em>.</li>
@@ -993,7 +1015,7 @@
 </ol>
 <p>You don’t need to worry about bytecode in day‑to‑day coding—just know it’s the bridge between your source code and the machine doing the work.</p>
 <hr />
-<h2 id="2-sequential-execution">2. Sequential Execution</h2>
+<h2 id="2-sequential-execution"><strong>2. Sequential Execution</strong></h2>
 <p>By default, Python executes statements <strong>one after another</strong>:</p>
 <pre><code class="language-python">print(&quot;Step 1&quot;)
 print(&quot;Step 2&quot;)
@@ -1004,7 +1026,7 @@ Step 2
 </code></pre>
 <p>Unless a control structure (like a <code>function</code>, <code>if</code>, or <code>loop</code>) changes the path, Python keeps moving downward.</p>
 <hr />
-<h2 id="3-variable-assignments">3. Variable Assignments</h2>
+<h2 id="3-variable-assignments"><strong>3. Variable Assignments</strong></h2>
 <p>When Python encounters an assignment:</p>
 <pre><code class="language-python">x = 5
 y = x + 3
@@ -1019,7 +1041,7 @@ y = x + 3
 <li>Reassigning a variable simply points the name to a new object.</li>
 </ul>
 <hr />
-<h2 id="4-function-definitions-def">4. Function Definitions (<code>def</code>)</h2>
+<h2 id="4-function-definitions-def"><strong>4. Function Definitions (<code>def</code>)</strong></h2>
 <p>Meeting a <code>def</code> statement is <em>not</em> a function call. Instead, Python:</p>
 <ol>
 <li>Creates a <strong>function object</strong> containing the code block.</li>
@@ -1031,7 +1053,7 @@ y = x + 3
 # No output yet; only definition happened
 </code></pre>
 <hr />
-<h2 id="5-function-calls">5. Function Calls</h2>
+<h2 id="5-function-calls"><strong>5. Function Calls</strong></h2>
 <p>Calling a function triggers a new <em>stack frame</em> (a workspace for that call):</p>
 <pre><code class="language-python">greet(&quot;Ada&quot;)
 </code></pre>
@@ -1044,8 +1066,8 @@ y = x + 3
 <li><strong>Pop</strong> the frame—locals disappear, but any returned value persists.</li>
 </ol>
 <hr />
-<h2 id="6-control-structures">6. Control Structures</h2>
-<h3 id="conditionals">Conditionals</h3>
+<h2 id="6-control-structures"><strong>6. Control Structures</strong></h2>
+<h3 id="conditionals"><strong>Conditionals</strong></h3>
 <pre><code class="language-python">if temperature &gt; 30:
     print(&quot;Hot!&quot;)
 else:
@@ -1055,7 +1077,7 @@ else:
 <li>Python checks the condition top to bottom.</li>
 <li>Executes the first branch that is <code>True</code>.</li>
 </ul>
-<h3 id="loops">Loops</h3>
+<h3 id="loops"><strong>Loops</strong></h3>
 <pre><code class="language-python">for i in range(3):
     print(i)
 </code></pre>
@@ -1069,7 +1091,7 @@ else:
 <li><code>continue</code> skips to the next iteration.</li>
 </ul>
 <hr />
-<h2 id="7-imports">7. Imports</h2>
+<h2 id="7-imports"><strong>7. Imports</strong></h2>
 <p>At an <code>import</code> statement, Python:</p>
 <ol>
 <li>Searches for the module.</li>
@@ -1078,7 +1100,7 @@ else:
 <li>Binds the module name (or selected members) in your script.</li>
 </ol>
 <hr />
-<h2 id="8-putting-it-all-together-walkthrough-example">8. Putting It All Together — Walk‑Through Example</h2>
+<h2 id="8-putting-it-all-together-walkthrough-example"><strong>8. Putting It All Together — Walk‑Through Example</strong></h2>
 <pre><code class="language-python"># flow_example.py
 import math          # Step A
 
@@ -1116,7 +1138,7 @@ print(area(radius))  # Step D
 </tbody>
 </table>
 <hr />
-<h2 id="9-key-takeaways">9. Key Takeaways</h2>
+<h2 id="9-key-takeaways"><strong>9. Key Takeaways</strong></h2>
 <ul>
 <li>Python reads your file from <strong>top to bottom</strong>, executing as it goes.</li>
 <li><strong>Assignments</strong> bind names to objects after evaluating the right side.</li>

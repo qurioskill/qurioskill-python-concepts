@@ -237,6 +237,28 @@
       
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../cheat_sheet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cheat Sheet
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -250,10 +272,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
             
   
   
@@ -266,8 +288,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_3">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Concepts
           </label>
@@ -311,10 +333,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
         
           
-          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
             
   
   
@@ -327,8 +349,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3_2">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
             <span class="md-nav__icon md-icon"></span>
             Data Types
           </label>
@@ -699,10 +721,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
             
   
   
@@ -715,8 +737,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             Important
           </label>
@@ -880,18 +902,18 @@
 
 
 
-<h1 id="python-modules">Python Modules</h1>
-<h2 id="what-is-a-module">What is a Module?</h2>
+<h1 id="python-modules"><strong>Python Modules</strong></h1>
+<h2 id="what-is-a-module"><strong>What is a Module?</strong></h2>
 <p>A <strong>module</strong> in Python is a file that contains Python code (functions,
 classes, and variables) that you can reuse in other programs.
 Modules help you organize your code into logical sections and avoid
 repeating yourself.</p>
-<p>There are two types of modules: 1. <strong>Built-in modules</strong> -- come with
-Python (e.g., <code>os</code>, <code>io</code>, <code>math</code>). 2. <strong>User-defined modules</strong> --
-created by you in separate <code>.py</code> files.</p>
+<p>There are two types of modules:<br />
+1. <strong>Built-in modules</strong> -- come with Python (e.g., <code>os</code>, <code>io</code>, <code>math</code>).<br />
+2. <strong>User-defined modules</strong> -- created by you in separate <code>.py</code> files.</p>
 <p>You use the <code>import</code> statement to load a module into your program.</p>
 <hr />
-<h2 id="importing-a-module">Importing a Module</h2>
+<h2 id="importing-a-module"><strong>Importing a Module</strong></h2>
 <pre><code class="language-python">import math
 
 print(math.sqrt(16))  # 4.0
@@ -904,63 +926,58 @@ print(sqrt(25))  # 5.0
 print(pi)        # 3.141592653589793
 </code></pre>
 <hr />
-<h2 id="example-1-the-os-module">Example 1: The <code>os</code> Module</h2>
+<h2 id="example-1-the-os-module"><strong>Example 1: The <code>os</code> Module</strong></h2>
 <p>The <strong><code>os</code> module</strong> provides functions to interact with the operating
 system (files, directories, environment variables).</p>
 <pre><code class="language-python">import os
 
-# Get current working directory
-print(os.getcwd())
-
-# List files in current directory
-print(os.listdir())
-
-# Create a new directory
-os.mkdir(&quot;test_folder&quot;)
-
-# Remove a directory
-os.rmdir(&quot;test_folder&quot;)
+# Check if a file exists
+if os.path.exists(&quot;example.txt&quot;):
+    print(&quot;File already exists!&quot;)
+else:
+    print(&quot;File does not exist yet.&quot;)
 </code></pre>
+<p>This helps you safely check before creating, reading, or writing files.</p>
 <hr />
-<h2 id="example-2-the-io-module">Example 2: The <code>io</code> Module</h2>
+<h2 id="example-2-the-io-module"><strong>Example 2: The <code>io</code> Module</strong></h2>
 <p>The <strong><code>io</code> module</strong> provides tools for handling input and output
 (working with files in text and binary modes).</p>
 <pre><code class="language-python">import io
 
-# Create an in-memory text stream
-text_stream = io.StringIO(&quot;Hello, Python!&quot;)
-print(text_stream.read())  # &quot;Hello, Python!&quot;
+# Write text to a file
+f = io.open(&quot;example_io.txt&quot;, &quot;w&quot;, encoding=&quot;utf-8&quot;)
+f.write(&quot;Hello, this is written using the io module.&quot;)
+f.close()
 
-# Working with file-like binary data
-binary_stream = io.BytesIO(b&quot;Python Bytes&quot;)
-print(binary_stream.read())  # b'Python Bytes'
+# Read the text back
+f = io.open(&quot;example_io.txt&quot;, &quot;r&quot;, encoding=&quot;utf-8&quot;)
+content = f.read()
+print(content)  # &quot;Hello, this is written using the io module.&quot;
+f.close()
 </code></pre>
 <hr />
-<h2 id="why-use-modules">Why Use Modules?</h2>
+<h2 id="why-use-modules"><strong>Why Use Modules?</strong></h2>
 <ul>
-<li><strong>Organization</strong> → Keeps code clean and modular.</li>
-<li><strong>Reusability</strong> → Functions can be used in multiple programs.</li>
-<li><strong>Built-in Power</strong> → Python modules provide ready-to-use
-    functionality.</li>
+<li><strong>Organization</strong> → Keeps code clean and modular.  </li>
+<li><strong>Reusability</strong> → Functions can be used in multiple programs.  </li>
+<li><strong>Built-in Power</strong> → Python modules provide ready-to-use functionality.  </li>
 </ul>
 <hr />
-<h2 id="more-resources">More Resources</h2>
+<h2 id="more-resources"><strong>More Resources</strong></h2>
 <ul>
-<li><a href="https://docs.python.org/3/tutorial/modules.html">Python Modules
-    Documentation</a></li>
-<li><a href="https://docs.python.org/3/library/os.html">Python OS Module</a></li>
-<li><a href="https://docs.python.org/3/library/io.html">Python IO Module</a></li>
+<li><a href="https://docs.python.org/3/tutorial/modules.html">Python Modules Documentation</a>  </li>
+<li><a href="https://docs.python.org/3/library/os.html">Python OS Module</a>  </li>
+<li><a href="https://docs.python.org/3/library/io.html">Python IO Module</a>  </li>
 </ul>
 <hr />
-<h2 id="summary">Summary</h2>
+<h2 id="summary"><strong>Summary</strong></h2>
 <ul>
-<li>Modules are reusable pieces of Python code.</li>
-<li>Use <code>import</code> to load built-in or custom modules.</li>
-<li><code>os</code> is used for system operations (directories, files).\</li>
-<li><code>io</code> is used for handling streams and files.</li>
+<li>Modules are reusable pieces of Python code.  </li>
+<li>Use <code>import</code> to load built-in or custom modules.  </li>
+<li><code>os</code> is used for file and system operations (like checking if a file exists).  </li>
+<li><code>io</code> is used for reading and writing to files.  </li>
 </ul>
-<p>Modules are one of the most powerful ways to extend Python's
-functionality!</p>
+<p>Modules not only help with organization but also enable <strong>reusability</strong>—you can write code once and use it across many projects.</p>
 
 
 
