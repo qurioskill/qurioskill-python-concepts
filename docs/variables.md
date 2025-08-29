@@ -1,8 +1,8 @@
-# Python Variables
+# **Python Variables**
 
 Variables are one of the most fundamental concepts in Python programming. They are used to store data that can be used and changed throughout your program.
 
-## What is a Variable?
+## **What is a Variable?**
 
 A variable is a name that refers to a value. Think of it as a labeled box where you can store information to use later.
 
@@ -17,7 +17,7 @@ In the examples above:
 - `name` is storing a string.
 - `temperature` is storing a float (decimal number).
 
-## Rules for Naming Variables
+## **Rules for Naming Variables**
 
 Python has a few rules and guidelines for naming variables:
 
@@ -42,7 +42,7 @@ class = "Math"     # 'class' is a reserved keyword
 student-name = "Sam"  # Contains a hyphen
 ```
 
-## Data Types
+## **Data Types**
 
 Variables can hold different types of data. Some common ones are:
 
@@ -57,7 +57,7 @@ Variables can hold different types of data. Some common ones are:
 
 Python automatically detects the type of data you assign to a variable.
 
-## Changing Values
+## **Changing Values**
 
 You can reassign a new value to a variable at any time.
 
@@ -66,7 +66,7 @@ score = 90
 score = 95  # score now holds 95
 ```
 
-## Multiple Assignments
+## **Multiple Assignments**
 
 Python allows you to assign values to multiple variables in one line.
 
@@ -80,7 +80,7 @@ You can also assign the same value to multiple variables:
 a = b = c = 0
 ```
 
-## Using Variables in Expressions
+## **Using Variables in Expressions**
 
 Variables can be used in calculations and expressions.
 
@@ -99,7 +99,7 @@ x = 5
 print(type(x))  # Output: <class 'int'>
 ```
 
-## Summary
+## **Summary**
 
 - Variables store data values.
 - Python automatically infers the type of the variable.

@@ -1,11 +1,11 @@
-# Python Arithmetic Data Types
+# **Python Arithmetic Data Types**
 
 Python provides several built-in data types that can be used to
 represent numbers and perform arithmetic operations.
 
 ------------------------------------------------------------------------
 
-## 1. Integers (`int`)
+## **1. Integers (`int`)**
 
 An **integer** is a whole number without decimals. It can be positive,
 negative, or zero.
@@ -22,7 +22,7 @@ print(type(x))  # <class 'int'>
 
 Python can handle very large integers without any special syntax.
 
-### Integer Operations
+### **Integer Operations**
 
 ``` python
 a = 10
@@ -38,7 +38,7 @@ print(a ** b)  # 1000 (exponentiation)
 
 ------------------------------------------------------------------------
 
-## 2. Floating Point Numbers (`float`)
+## **2. Floating Point Numbers (`float`)**
 
 A **float** represents real numbers with a decimal point.
 
@@ -52,7 +52,7 @@ value = 2.0
 print(type(pi))  # <class 'float'>
 ```
 
-### Float Operations
+### **Float Operations**
 
 ``` python
 x = 5.5
@@ -68,7 +68,7 @@ Floats are useful when precision with decimals is required.
 
 ------------------------------------------------------------------------
 
-## 3. Complex Numbers (`complex`)
+## **3. Complex Numbers (`complex`)**
 
 A **complex number** has a real part and an imaginary part, written as
 `a + bj`.
@@ -82,7 +82,7 @@ c2 = 4 - 5j
 print(type(c1))  # <class 'complex'>
 ```
 
-### Complex Number Operations
+### **Complex Number Operations**
 
 ``` python
 c1 = 2 + 3j
@@ -98,7 +98,7 @@ Python has built-in support for complex arithmetic.
 
 ------------------------------------------------------------------------
 
-## 4. Type Conversion Between Number Types
+## **4. Type Conversion Between Number Types**
 
 You can convert between integers, floats, and complex numbers using
 built-in functions:
@@ -112,7 +112,7 @@ print(complex(2, 3))  # (2+3j)
 
 ------------------------------------------------------------------------
 
-## Summary
+## **Summary**
 
 -   **Integers (`int`)**: Whole numbers, positive or negative.
 -   **Floats (`float`)**: Numbers with decimals, for precision.

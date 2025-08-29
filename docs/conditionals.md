@@ -1,11 +1,11 @@
 
-# Python Conditionals
+# **Python Conditionals**
 
 Conditionals in Python allow you to make decisions in your code. They let your program behave differently based on different inputs or states.
 
 ---
 
-## The `if` Statement
+## **The `if` Statement**
 
 The most basic conditional is the `if` statement. It runs a block of code only if the condition is `True`.
 
@@ -33,7 +33,7 @@ else:
 
 ---
 
-## Comparison Operators
+## **Comparison Operators**
 
 These are used to compare values and return a boolean (`True` or `False`).
 
@@ -46,7 +46,7 @@ These are used to compare values and return a boolean (`True` or `False`).
 | `>=`     | Greater or equal   | `3 >= 3`      | `True`  |
 | `<=`     | Less or equal      | `2 <= 5`      | `True`  |
 
-### Examples in Conditionals:
+### **Examples in Conditionals:**
 
 ```python
 a = 10
@@ -69,7 +69,7 @@ if b >= 20:
 
 ---
 
-## Logical Operators
+## **Logical Operators**
 
 Logical operators combine multiple conditions into a single boolean result.
 
@@ -79,7 +79,7 @@ Logical operators combine multiple conditions into a single boolean result.
 | `or`     | At least one true | `(5 < 2 or 3 < 4)`              | `True`  |
 | `not`    | Reverses boolean  | `not (5 == 5)`                  | `False` |
 
-### Examples in Conditionals:
+### **Examples in Conditionals:**
 
 ```python
 x = 7
@@ -104,7 +104,7 @@ if not logged_in:
 
 ---
 
-## Nested Conditionals
+## **Nested Conditionals**
 
 You can put `if` statements inside other `if` statements.
 
@@ -137,7 +137,7 @@ else:
 
 ---
 
-## Summary
+## **Summary**
 
 - Use `if`, `elif`, and `else` to control the flow of your program.
 - Use comparison operators to evaluate values inside conditionals.

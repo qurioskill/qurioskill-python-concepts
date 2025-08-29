@@ -1,11 +1,11 @@
 
-# A Simple Four‑Step Approach to Solving Programming Tasks
+# **A Simple Four‑Step Approach to Solving Programming Tasks**
 
 When you face a new coding challenge, use these four practical steps to stay organized and make steady progress.
 
 ---
 
-## 1. Map Your Inputs
+## **1. Map Your Inputs**
 
 - **What will the program receive?**  
   *Examples: a list of numbers, a user‑typed string, a CSV file, API JSON.*
@@ -16,7 +16,7 @@ Write down each input type and edge case so nothing surprises you later.
 
 ---
 
-## 2. Define the Desired Output
+## **2. Define the Desired Output**
 
 - **What should the program produce?**  
   *A single number? A formatted report? A modified file?*
@@ -27,19 +27,20 @@ Clarity here makes planning the middle steps much easier.
 
 ---
 
-## 3. Sketch the Data Transformations
+## **3. Sketch the Data Transformations**
 
 Plan the route from input to output:
 
 - **Operations** – addition, string slicing, sorting, etc.  
 - **Control flow** – `if` checks, loops, list comprehensions.  
 - **Helper functions** – small reusable chunks to keep code tidy.
+- **Modules and Packages needed** - What modules and packages will be useful and have functions that can be reused.
 
 A quick bullet list or flowchart is usually enough. You just need direction, not perfection.
 
 ---
 
-## 4. Build Iteratively
+## **4. Build Iteratively**
 
 1. **Start small** – implement the simplest path from input to correct output.  
 2. **Run and test** – confirm that basic case works.  
@@ -50,7 +51,7 @@ Small steps keep bugs local and progress visible.
 
 ---
 
-### Quick Reference
+### **Quick Reference**
 
 | Step | Question to Ask  | What to Produce               |
 |------|------------------|-------------------------------|

@@ -1,6 +1,6 @@
-# Python List Data Type
+# **Python List Data Type**
 
-## What is a List?
+## **What is a List?**
 
 A **list** in Python is an ordered, mutable collection of items.
 Lists can store different types of data such as numbers, strings, or
@@ -16,7 +16,7 @@ mixed = [1, "hello", 3.14, True]
 
 ------------------------------------------------------------------------
 
-## Creating a List
+## **Creating a List**
 
 You can create a list using square brackets `[]`:
 
@@ -27,7 +27,7 @@ empty_list = []
 
 ------------------------------------------------------------------------
 
-## Accessing Elements
+## **Accessing Elements**
 
 Lists are indexed, starting at `0`. You can access elements using their
 index:
@@ -42,7 +42,7 @@ print(animals[-1])  # "elephant" (last item)
 
 ------------------------------------------------------------------------
 
-## Modifying a List
+## **Modifying a List**
 
 Lists are **mutable**, meaning you can change their contents:
 
@@ -54,7 +54,7 @@ print(colors)  # ["red", "yellow", "green"]
 
 ------------------------------------------------------------------------
 
-## Common List Operations
+## **Common List Operations**
 
 ``` python
 nums = [1, 2, 3]
@@ -79,7 +79,7 @@ print(nums * 2)       # [1, 2, 3, 1, 2, 3]
 
 ------------------------------------------------------------------------
 
-## Looping Through a List
+## **Looping Through a List**
 
 ``` python
 fruits = ["apple", "banana", "cherry"]
@@ -95,7 +95,7 @@ Output:
 
 ------------------------------------------------------------------------
 
-## List Slicing
+## **List Slicing**
 
 Lists support slicing just like strings:
 
@@ -108,7 +108,7 @@ print(letters[::2])   # ['a', 'c', 'e']
 
 ------------------------------------------------------------------------
 
-## Nested Lists
+## **Nested Lists**
 
 Lists can contain other lists:
 
@@ -120,7 +120,7 @@ print(matrix[1][1])  # 4
 
 ------------------------------------------------------------------------
 
-## Useful List Methods
+## **Useful List Methods**
 
 ``` python
 numbers = [3, 1, 4, 1, 5]
@@ -138,7 +138,7 @@ print(numbers)        # [5, 4, 3, 1, 1]
 
 ------------------------------------------------------------------------
 
-## Summary
+## **Summary**
 
 -   **Lists** are ordered, mutable collections of items.
 -   Support indexing, slicing, and iteration.

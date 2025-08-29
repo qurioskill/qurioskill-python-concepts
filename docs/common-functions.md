@@ -1,11 +1,11 @@
 
-# Commonly Used Python Functions
+# **Commonly Used Python Functions**
 
 Python includes many built-in functions that make coding easier. Here's a list of some of the most useful functions for beginners, with examples of how to use them.
 
 ---
 
-## 1. `print()`
+## **1. `print()`**
 
 Displays output to the screen.
 
@@ -15,7 +15,7 @@ print("Hello, world!")
 
 ---
 
-## 2. `len()`
+## **2. `len()`**
 
 Returns the number of items in a string, list, tuple, or other collection.
 
@@ -26,7 +26,7 @@ print(len(name))  # Output: 6
 
 ---
 
-## 3. `type()`
+## **3. `type()`**
 
 Returns the type of a variable or value.
 
@@ -37,7 +37,7 @@ print(type(x))  # Output: <class 'int'>
 
 ---
 
-## 4. `input()`
+## **4. `input()`**
 
 Takes input from the user as a string.
 
@@ -48,7 +48,7 @@ print("Hello, " + name)
 
 ---
 
-## 5. `int()`, `float()`, `str()`
+## **5. `int()`, `float()`, `str()`**
 
 Convert values between different types.
 
@@ -61,7 +61,7 @@ score = str(99)        # Converts to string
 
 ---
 
-## 6. `max()` and `min()`
+## **6. `max()` and `min()`**
 
 Returns the largest or smallest item from a list or set of values.
 
@@ -73,7 +73,7 @@ print(min(numbers))  # Output: 2
 
 ---
 
-## 7. `sum()`
+## **7. `sum()`**
 
 Returns the total of all values in a list.
 
@@ -84,7 +84,7 @@ print(sum(scores))  # Output: 60
 
 ---
 
-## 8. `range()`
+## **8. `range()`**
 
 Generates a sequence of numbers. Commonly used in loops.
 
@@ -96,7 +96,7 @@ for i in range(5):
 
 ---
 
-## 9. `round()`
+## **9. `round()`**
 
 Rounds a float to the nearest integer or to a given number of decimal places.
 
@@ -107,7 +107,7 @@ print(round(3.14159, 2))   # Output: 3.14
 
 ---
 
-## 10. `sorted()`
+## **10. `sorted()`**
 
 Returns a new sorted list from the items in an iterable.
 
@@ -118,7 +118,7 @@ print(sorted(numbers))  # Output: [1, 3, 5, 8]
 
 ---
 
-## Summary Table
+## **Summary Table**
 
 | Function    | Description                              |
 |-------------|------------------------------------------|

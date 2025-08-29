@@ -1,11 +1,11 @@
 
-# Python `while` Loops
+# **Python `while` Loops**
 
 `while` loops let you repeat a block of code **as long as** a condition remains `True`. They’re handy when you don’t know ahead of time how many repetitions you’ll need.
 
 ---
 
-## 1. Basic `while` Loop
+## **1. Basic `while` Loop**
 
 ```python
 counter = 1
@@ -23,7 +23,7 @@ while counter <= 5:
 
 ---
 
-## 2. `while` with Nested Conditionals
+## **2. `while` with Nested Conditionals**
 
 Add `if` statements inside the loop for more control.
 
@@ -40,7 +40,7 @@ while number > 0:
 
 ---
 
-## 3. Breaking Out Early with `break`
+## **3. Breaking Out Early with `break`**
 
 ```python
 secret = "xyz"
@@ -61,7 +61,7 @@ if attempts == 3 and guess != secret:
 
 ---
 
-## 4. Skipping Ahead with `continue`
+## **4. Skipping Ahead with `continue`**
 
 ```python
 num = 0
@@ -77,7 +77,7 @@ while num < 10:
 
 ---
 
-## Quick Reference
+## **Quick Reference**
 
 | Keyword    | What It Does                                  |
 |------------|-----------------------------------------------|

@@ -1,11 +1,11 @@
 
-# Python Flow of Control: A High‑Level Overview
+# **Python Flow of Control**
 
 When you run a Python script, the interpreter follows a predictable flow to execute the code. This document explains **how Python reads a `.py` file**, what happens with **variable assignments**, **function definitions and calls**, and other control structures—all in a beginner‑friendly way.
 
 ---
 
-## 1. Starting the Interpreter
+## **1. Starting the Interpreter**
 
 1. **Read the file**: Python reads your script from top to bottom.
 2. **Compile to bytecode**: Behind the scenes, each line is translated into an intermediate form called *bytecode*.
@@ -15,7 +15,7 @@ You don’t need to worry about bytecode in day‑to‑day coding—just know it
 
 ---
 
-## 2. Sequential Execution
+## **2. Sequential Execution**
 
 By default, Python executes statements **one after another**:
 
@@ -35,7 +35,7 @@ Unless a control structure (like a `function`, `if`, or `loop`) changes the path
 
 ---
 
-## 3. Variable Assignments
+## **3. Variable Assignments**
 
 When Python encounters an assignment:
 
@@ -54,7 +54,7 @@ Key points:
 
 ---
 
-## 4. Function Definitions (`def`)
+## **4. Function Definitions (`def`)**
 
 Meeting a `def` statement is *not* a function call. Instead, Python:
 
@@ -70,7 +70,7 @@ def greet(name):
 
 ---
 
-## 5. Function Calls
+## **5. Function Calls**
 
 Calling a function triggers a new *stack frame* (a workspace for that call):
 
@@ -88,9 +88,9 @@ Steps:
 
 ---
 
-## 6. Control Structures
+## **6. Control Structures**
 
-### Conditionals
+### **Conditionals**
 
 ```python
 if temperature > 30:
@@ -102,7 +102,7 @@ else:
 - Python checks the condition top to bottom.
 - Executes the first branch that is `True`.
 
-### Loops
+### **Loops**
 
 ```python
 for i in range(3):
@@ -119,7 +119,7 @@ for i in range(3):
 
 ---
 
-## 7. Imports
+## **7. Imports**
 
 At an `import` statement, Python:
 
@@ -130,7 +130,7 @@ At an `import` statement, Python:
 
 ---
 
-## 8. Putting It All Together — Walk‑Through Example
+## **8. Putting It All Together — Walk‑Through Example**
 
 ```python
 # flow_example.py
@@ -153,7 +153,7 @@ print(area(radius))  # Step D
 
 ---
 
-## 9. Key Takeaways
+## **9. Key Takeaways**
 
 - Python reads your file from **top to bottom**, executing as it goes.
 - **Assignments** bind names to objects after evaluating the right side.

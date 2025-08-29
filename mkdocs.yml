@@ -5,6 +5,7 @@ theme:
 nav:
   - Home: index.md
   - How To Tackle Coding Tasks: how-to-tackle-coding-tasks.md
+  - Cheat Sheet: cheat_sheet.md
   - Concepts:
     - Variables: variables.md
     - Data Types:

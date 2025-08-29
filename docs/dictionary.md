@@ -1,6 +1,6 @@
-# Python Dictionary Data Type
+# **Python Dictionary Data Type**
 
-## What is a Dictionary?
+## **What is a Dictionary?**
 
 A **dictionary** in Python is a collection of key-value pairs.
 Each key must be unique, and it maps to a value.
@@ -20,7 +20,7 @@ student = {
 
 ------------------------------------------------------------------------
 
-## Creating Dictionaries
+## **Creating Dictionaries**
 
 ``` python
 empty_dict = {}
@@ -35,7 +35,7 @@ person = dict(name="Charlie", age=30)
 
 ------------------------------------------------------------------------
 
-## Accessing Values
+## **Accessing Values**
 
 You can access values by their keys:
 
@@ -54,7 +54,7 @@ print(student.get("grade", "Not Assigned"))  # "Not Assigned"
 
 ------------------------------------------------------------------------
 
-## Modifying Dictionaries
+## **Modifying Dictionaries**
 
 ``` python
 student = {"name": "Alice", "age": 20}
@@ -70,7 +70,7 @@ print(student)  # {'name': 'Alice', 'age': 21, 'grade': 'A'}
 
 ------------------------------------------------------------------------
 
-## Removing Items
+## **Removing Items**
 
 ``` python
 student = {"name": "Alice", "age": 20, "grade": "A"}
@@ -84,7 +84,7 @@ print(student)  # {}
 
 ------------------------------------------------------------------------
 
-## Looping Through Dictionaries
+## **Looping Through Dictionaries**
 
 ``` python
 student = {"name": "Alice", "age": 20, "grade": "A"}
@@ -110,7 +110,7 @@ Output:
 
 ------------------------------------------------------------------------
 
-## Useful Dictionary Methods
+## **Useful Dictionary Methods**
 
 ``` python
 student = {"name": "Alice", "age": 20}
@@ -126,7 +126,7 @@ print(student)  # {'name': 'Alice', 'age': 21, 'grade': 'A'}
 
 ------------------------------------------------------------------------
 
-## Nested Dictionaries
+## **Nested Dictionaries**
 
 Dictionaries can hold other dictionaries:
 
@@ -141,7 +141,7 @@ print(school["student1"]["name"])  # "Alice"
 
 ------------------------------------------------------------------------
 
-## Summary
+## **Summary**
 
 -   **Dictionaries** store key-value pairs.
 -   Keys must be unique and immutable (strings, numbers, tuples).

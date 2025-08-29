@@ -1,22 +1,22 @@
 
-# Python Functions
+# **Python Functions**
 
 Functions are reusable blocks of code that perform a specific task. They help organize code, reduce repetition, and improve readability.
 
 ---
 
-## What is a Function?
+## **What is a Function?**
 
 A function is a named sequence of statements that performs a computation. You define a function once and can use it as many times as needed.
 
-### Defining a Function
+### **Defining a Function**
 
 ```python
 def greet():
     print("Hello, world!")
 ```
 
-### Calling a Function
+### **Calling a Function**
 
 ```python
 greet()  # Output: Hello, world!
@@ -24,7 +24,7 @@ greet()  # Output: Hello, world!
 
 ---
 
-## Why Use Functions?
+## **Why Use Functions?**
 
 - **Reusability**: Write code once and use it multiple times.
 - **Organization**: Break programs into smaller, manageable parts.
@@ -33,7 +33,7 @@ greet()  # Output: Hello, world!
 
 ---
 
-## Function with Parameters
+## **Function with Parameters**
 
 Functions can accept inputs, known as *parameters*.
 
@@ -42,7 +42,7 @@ def greet(name):
     print(f"Hello, {name}!")
 ```
 
-### Example:
+### **Example:**
 
 ```python
 greet("Alice")   # Output: Hello, Alice!
@@ -51,7 +51,7 @@ greet("Bob")     # Output: Hello, Bob!
 
 ---
 
-## Function with Return Value
+## **Function with Return Value**
 
 Functions can return values using the `return` statement.
 
@@ -60,7 +60,7 @@ def add(a, b):
     return a + b
 ```
 
-### Example:
+### **Example:**
 
 ```python
 result = add(3, 4)
@@ -69,7 +69,7 @@ print(result)    # Output: 7
 
 ---
 
-## Default Parameters
+## **Default Parameters**
 
 You can provide default values for parameters.
 
@@ -78,7 +78,7 @@ def greet(name="Guest"):
     print(f"Hello, {name}!")
 ```
 
-### Example:
+### **Example:**
 
 ```python
 greet()           # Output: Hello, Guest!
@@ -87,7 +87,7 @@ greet("Diana")    # Output: Hello, Diana!
 
 ---
 
-## Keyword and Positional Arguments
+## **Keyword and Positional Arguments**
 
 Python supports both positional and keyword arguments.
 
@@ -96,7 +96,7 @@ def describe_pet(animal, name):
     print(f"I have a {animal} named {name}.")
 ```
 
-### Example:
+### **Example:**
 
 ```python
 describe_pet("dog", "Buddy")                   # Positional
@@ -105,7 +105,7 @@ describe_pet(name="Whiskers", animal="cat")    # Keyword
 
 ---
 
-## Returning Multiple Values
+## **Returning Multiple Values**
 
 Functions can return multiple values as a tuple.
 
@@ -121,7 +121,7 @@ print(a, b)  # Output: 5 10
 
 ---
 
-## Scope of Variables
+## **Scope of Variables**
 
 Variables defined inside a function are **local** to that function.
 
@@ -136,7 +136,7 @@ example()
 
 ---
 
-## Summary
+## **Summary**
 
 | Feature                | Description                                 |
 |------------------------|---------------------------------------------|

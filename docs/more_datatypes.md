@@ -1,16 +1,22 @@
 # More Python Data Types
 
 So far, we've looked at some of the **core built-in data types** in
-Python: - Numbers (`int`, `float`, `complex`) - Strings (`str`) - Lists
-(`list`) - Tuples (`tuple`) - Sets (`set`) - Dictionaries (`dict`) -
-Booleans (`bool`)
+Python: 
+
+- Numbers (`int`, `float`, `complex`) 
+- Strings (`str`) 
+- Lists (`list`) 
+- Tuples (`tuple`) 
+- Sets (`set`)
+- Dictionaries (`dict`)
+- Booleans (`bool`)
 
 But Python has **many more data types and data structures** that you can
 use depending on your needs.
 
 ------------------------------------------------------------------------
 
-## Other Built-in Data Types
+## **Other Built-in Data Types**
 
 Here are some additional built-in data types you may encounter:
 
@@ -21,7 +27,7 @@ Here are some additional built-in data types you may encounter:
 
 ------------------------------------------------------------------------
 
-## Beyond Built-ins
+## **Beyond Built-ins**
 
 Python also has powerful **modules** that provide advanced data
 structures: - **`collections` module** → `Counter`, `defaultdict`,
@@ -31,7 +37,7 @@ storage of basic numeric types. - **`decimal` and `fractions` modules**
 
 ------------------------------------------------------------------------
 
-## Exploring More
+## **Exploring More**
 
 If you'd like to explore all the data types Python provides, here are
 some excellent resources:
@@ -45,7 +51,7 @@ some excellent resources:
 
 ------------------------------------------------------------------------
 
-## Summary
+## **Summary**
 
 -   Python has many built-in data types, but also specialized types for
     advanced use cases.

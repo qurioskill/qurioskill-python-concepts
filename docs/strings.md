@@ -1,6 +1,6 @@
-# Python String Data Type
+# **Python String Data Type**
 
-## What is a String?
+## **What is a String?**
 
 In Python, a **string** is a sequence of characters enclosed in single
 quotes (`'`), double quotes (`"`), or triple quotes (`'''` or `"""`).
@@ -16,7 +16,7 @@ a multi-line
 string.'''
 ```
 
-## Creating Strings
+## **Creating Strings**
 
 You can create strings using quotes:
 
@@ -27,7 +27,7 @@ str3 = """Multi-line
 string example."""
 ```
 
-## String Operations
+## **String Operations**
 
 Python provides many operations with strings:
 
@@ -40,7 +40,7 @@ print(a * 3)        # Repetition → "HelloHelloHello"
 print(len(a))       # Length → 5
 ```
 
-## Indexing and Slicing
+## **Indexing and Slicing**
 
 Strings are sequences, so you can access parts of them:
 
@@ -52,7 +52,7 @@ print(text[-1])  # Last character → "n"
 print(text[0:4]) # Slice → "Pyth"
 ```
 
-## Common String Methods
+## **Common String Methods**
 
 Python strings have built-in methods:
 
@@ -66,7 +66,7 @@ print(msg.replace("world", "Python"))  # "hello Python"
 print(msg.strip())    # Removes whitespace from start and end
 ```
 
-## Type Conversion
+## **Type Conversion**
 
 Convert other data types to strings with `str()`:
 
@@ -75,7 +75,7 @@ num = 42
 print(str(num))  # "42"
 ```
 
-## Summary
+## **Summary**
 
 -   Strings represent text in Python.
 -   Defined using quotes: `' '`, `" "`, `''' '''`, or `""" """`.

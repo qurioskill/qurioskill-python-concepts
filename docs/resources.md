@@ -1,4 +1,4 @@
-# Python Learning Resources
+# **Python Learning Resources**
 
 Learning Python is a journey, and there are many excellent resources
 available online to help you.
@@ -6,7 +6,7 @@ Here's a curated list of beginner-friendly and advanced resources.
 
 ------------------------------------------------------------------------
 
-## Official Documentation
+## **Official Documentation**
 
 -   [Python Official Documentation](https://docs.python.org/3/)
     The primary source for everything about Python. Includes tutorials,
@@ -18,7 +18,7 @@ Here's a curated list of beginner-friendly and advanced resources.
 
 ------------------------------------------------------------------------
 
-## Interactive Learning Platforms
+## **Interactive Learning Platforms**
 
 -   [W3Schools Python Tutorial](https://www.w3schools.com/python/) --
     Beginner-friendly interactive lessons.\
@@ -34,7 +34,7 @@ Here's a curated list of beginner-friendly and advanced resources.
 
 ------------------------------------------------------------------------
 
-## Video Tutorials
+## **Video Tutorials**
 
 -   [Python Programming on FreeCodeCamp
     (YouTube)](https://www.youtube.com/watch?v=rfscVS0vtbw) -- A 4-hour
@@ -45,7 +45,7 @@ Here's a curated list of beginner-friendly and advanced resources.
 
 ------------------------------------------------------------------------
 
-## Practice Platforms
+## **Practice Platforms**
 
 -   [HackerRank Python](https://www.hackerrank.com/domains/python) --
     Coding challenges for practice.
@@ -58,7 +58,7 @@ Here's a curated list of beginner-friendly and advanced resources.
 
 ------------------------------------------------------------------------
 
-## Books (Free & Paid)
+## **Books (Free & Paid)**
 
 -   *Automate the Boring Stuff with Python* by Al Sweigart -- [Free to
     read online](https://automatetheboringstuff.com/).\
@@ -68,7 +68,7 @@ Here's a curated list of beginner-friendly and advanced resources.
 
 ------------------------------------------------------------------------
 
-## Communities & Forums
+## **Communities & Forums**
 
 -   [Python Reddit Community](https://www.reddit.com/r/learnpython/) --
     Ask questions and share resources.
@@ -81,7 +81,7 @@ Here's a curated list of beginner-friendly and advanced resources.
 
 ------------------------------------------------------------------------
 
-## Summary
+## **Summary**
 
 -   Start with **official documentation** and beginner tutorials.
 -   Use **interactive platforms** for practice.
